@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://fastly.picsum.photos/id/17/1600/900.jpg?hmac=hPg4b_1JL1745GCU0VWERUQsrC-WMv7-gR9M4v9w1to');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+    background: #ffffff;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 25px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    opacity: 0.5;
+    background-color: rgb(77, 73, 73);
+}
+
+p{
+    font-weight: 500;
+}
+
+.my-score{
+    color: green;
+    font-weight: bold;
+
+}
+
+.machine-score{
+    color: red;
+    font-weight: bold;
+}
+
